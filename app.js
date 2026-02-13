@@ -1,5 +1,6 @@
 console.log("Hello world!");
 
+
 function myFunction() {
   
     var input, filter, table, tr, td, i, txtValue;
@@ -22,6 +23,7 @@ function myFunction() {
             } else {
                 tr[i].style.display = "none";
             }
-        }  
-    }
+        };
+    };
+
 };
